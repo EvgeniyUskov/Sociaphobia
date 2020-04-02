@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,16 @@
 		44D9177A2431B6FA008C14F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D917782431B6FA008C14F2 /* Main.storyboard */; };
 		44D9177C2431B6FF008C14F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D9177B2431B6FF008C14F2 /* Assets.xcassets */; };
 		44D9177F2431B6FF008C14F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D9177D2431B6FF008C14F2 /* LaunchScreen.storyboard */; };
+		44D917882431B899008C14F2 /* ChooseSexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D917872431B899008C14F2 /* ChooseSexViewController.swift */; };
+		44D9178B2431DC94008C14F2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D917892431DC94008C14F2 /* TableViewCell.swift */; };
+		44D9178C2431DC95008C14F2 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D9178A2431DC94008C14F2 /* TableViewCell.xib */; };
+		44D9178E2431DD79008C14F2 /* PlaySoundDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D9178D2431DD79008C14F2 /* PlaySoundDelegate.swift */; };
+		44D917952431F0F1008C14F2 /* whoIsLast_male.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44D917902431F0EF008C14F2 /* whoIsLast_male.mp3 */; };
+		44D917962431F0F1008C14F2 /* thanks_male.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44D917912431F0F0008C14F2 /* thanks_male.mp3 */; };
+		44D917972431F0F1008C14F2 /* stopOnNextStation_male.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44D917922431F0F0008C14F2 /* stopOnNextStation_male.mp3 */; };
+		44D917982431F0F1008C14F2 /* youreWelcome_male.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44D917932431F0F0008C14F2 /* youreWelcome_male.mp3 */; };
+		44D917992431F0F1008C14F2 /* notAtAll_male.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44D917942431F0F1008C14F2 /* notAtAll_male.mp3 */; };
+		44D9179D24320F43008C14F2 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D9179C24320F43008C14F2 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		44D9177B2431B6FF008C14F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44D9177E2431B6FF008C14F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44D917802431B6FF008C14F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44D917872431B899008C14F2 /* ChooseSexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSexViewController.swift; sourceTree = "<group>"; };
+		44D917892431DC94008C14F2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		44D9178A2431DC94008C14F2 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		44D9178D2431DD79008C14F2 /* PlaySoundDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundDelegate.swift; sourceTree = "<group>"; };
+		44D917902431F0EF008C14F2 /* whoIsLast_male.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whoIsLast_male.mp3; sourceTree = "<group>"; };
+		44D917912431F0F0008C14F2 /* thanks_male.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanks_male.mp3; sourceTree = "<group>"; };
+		44D917922431F0F0008C14F2 /* stopOnNextStation_male.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stopOnNextStation_male.mp3; sourceTree = "<group>"; };
+		44D917932431F0F0008C14F2 /* youreWelcome_male.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = youreWelcome_male.mp3; sourceTree = "<group>"; };
+		44D917942431F0F1008C14F2 /* notAtAll_male.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notAtAll_male.mp3; sourceTree = "<group>"; };
+		44D9179C24320F43008C14F2 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +62,7 @@
 			children = (
 				44D917712431B6FA008C14F2 /* Sociaphobia 2 */,
 				44D917702431B6FA008C14F2 /* Products */,
+				9A0CD89FC42BEB0F4172CD50 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +79,46 @@
 			children = (
 				44D917722431B6FA008C14F2 /* AppDelegate.swift */,
 				44D917742431B6FA008C14F2 /* SceneDelegate.swift */,
+				44D9178D2431DD79008C14F2 /* PlaySoundDelegate.swift */,
 				44D917762431B6FA008C14F2 /* ViewController.swift */,
-				44D917782431B6FA008C14F2 /* Main.storyboard */,
+				44D917872431B899008C14F2 /* ChooseSexViewController.swift */,
+				44D9179C24320F43008C14F2 /* UIHelper.swift */,
+				44D9178F2431E61A008C14F2 /* TableViewCells */,
 				44D9177B2431B6FF008C14F2 /* Assets.xcassets */,
+				44D917782431B6FA008C14F2 /* Main.storyboard */,
 				44D9177D2431B6FF008C14F2 /* LaunchScreen.storyboard */,
 				44D917802431B6FF008C14F2 /* Info.plist */,
+				44D917862431B806008C14F2 /* Sounds */,
 			);
 			path = "Sociaphobia 2";
+			sourceTree = "<group>";
+		};
+		44D917862431B806008C14F2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				44D917942431F0F1008C14F2 /* notAtAll_male.mp3 */,
+				44D917922431F0F0008C14F2 /* stopOnNextStation_male.mp3 */,
+				44D917912431F0F0008C14F2 /* thanks_male.mp3 */,
+				44D917902431F0EF008C14F2 /* whoIsLast_male.mp3 */,
+				44D917932431F0F0008C14F2 /* youreWelcome_male.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		44D9178F2431E61A008C14F2 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				44D917892431DC94008C14F2 /* TableViewCell.swift */,
+				44D9178A2431DC94008C14F2 /* TableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		9A0CD89FC42BEB0F4172CD50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +180,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D9177F2431B6FF008C14F2 /* LaunchScreen.storyboard in Resources */,
+				44D917952431F0F1008C14F2 /* whoIsLast_male.mp3 in Resources */,
+				44D917972431F0F1008C14F2 /* stopOnNextStation_male.mp3 in Resources */,
+				44D9178C2431DC95008C14F2 /* TableViewCell.xib in Resources */,
+				44D917962431F0F1008C14F2 /* thanks_male.mp3 in Resources */,
 				44D9177C2431B6FF008C14F2 /* Assets.xcassets in Resources */,
+				44D917982431F0F1008C14F2 /* youreWelcome_male.mp3 in Resources */,
 				44D9177A2431B6FA008C14F2 /* Main.storyboard in Resources */,
+				44D917992431F0F1008C14F2 /* notAtAll_male.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D9178E2431DD79008C14F2 /* PlaySoundDelegate.swift in Sources */,
+				44D9178B2431DC94008C14F2 /* TableViewCell.swift in Sources */,
+				44D917882431B899008C14F2 /* ChooseSexViewController.swift in Sources */,
 				44D917772431B6FA008C14F2 /* ViewController.swift in Sources */,
 				44D917732431B6FA008C14F2 /* AppDelegate.swift in Sources */,
 				44D917752431B6FA008C14F2 /* SceneDelegate.swift in Sources */,
+				44D9179D24320F43008C14F2 /* UIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
